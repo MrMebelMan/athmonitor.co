@@ -1,0 +1,114 @@
+#search {
+  background-image: url('/images/icons/search.png');
+  background-position: 6px 6px;
+  background-size: 15%;
+  background-repeat: no-repeat;
+  width: 115px;
+  outline: none;
+  font-size: 13px;
+  padding: 9px 15px 9px 35px;
+  border: none;
+  border-color: transparent;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#lato {
+  font-family: Lato, sans-serif; font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  .wisdom;
+  color: #002a67;
+}
+
+h3 {
+  .wisdom;
+  color: #073c8c;
+}
+
+p {
+  .wisdom;
+  font-size: 90%;
+}
+
+#ATH_table {
+  margin-left: auto;
+  margin-right: auto;
+  background: #f8faff;
+  border: 1px solid #e0e0e0;
+  color: #424242;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) {
+
+  thead {
+    width: 100%;
+  }
+
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+#ATH_table thead {
+  width: 78%;
+  text-align: left;
+  background: #0069ff;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #e0e0e0;
+  font-family: Raleway, sans-serif; 
+  font-weight: 400;
+}
+
+#ATH_table thead > tr > th {
+  padding: 12px;
+  vertical-align: top;
+}
+
+#ATH_table td {
+  padding: 12px;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+  font-size: 14px;
+  letter-spacing: .3px;
+  font-family: Lato, sans-serif; 
+  font-weight: 400;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.coin-logo {
+  padding-right: 5px; 
+  vertical-align: middle; 
+  width: 19px; 
+  height: 19px;
+}
+
+input.button_sort
+{
+  background-image: url(/images/buttons/sort-small-50.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  border: none;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+
