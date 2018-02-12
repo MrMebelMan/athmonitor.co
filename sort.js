@@ -1,5 +1,4 @@
 'use strict';
-'use warnings';
 
 const IDX_NAME        = 0;
 const IDX_PRICE       = 1;
