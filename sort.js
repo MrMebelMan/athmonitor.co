@@ -1,3 +1,5 @@
+'use strict';
+
 const IDX_NAME        = 0;
 const IDX_PRICE       = 1;
 const IDX_MARKET_CAP  = 2;
